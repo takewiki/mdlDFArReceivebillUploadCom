@@ -1,0 +1,26 @@
+#程序变量,可以在此数据设置
+#标准模板使用了appTpl是否合适
+app_id =  'dmsDemo'
+
+#数据中台的每个模块的名称
+#满足命名的规范,mdlxxxxxCom
+module_id ='mdlDFArReceivebillUploadCom'
+
+#模块名称
+#实际程序时不需要修改
+module_name ='模块演示'
+
+#获取数据中台数据库连接的token,演示数据为py_test
+#DF
+#dms_token ='5C9455BE-02BC-41EC-82D9-3DCDEAA8EF5F'
+#selectDB
+dms_token = 'E239E769-910C-4272-BCD3-C89F75A7A654'
+#加载数据中台的所有系统包及程序包
+tstk::import(app_id)
+
+#加载数据中台的所有系统包及程序包
+tstk::import(app_id)
+
+
+
+
